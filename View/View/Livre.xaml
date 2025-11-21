@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="View.Livre"
+             Title="Livre"
+             HeightRequest="650"
+             WidthRequest="500">
+    <VerticalStackLayout
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Margin="10,0">
+        <Label
+            Text="{Binding Livre.Titre}"
+            TextColor="White"
+            Margin="0,0,0,2"/>
+        <Label
+            Text="{Binding Livre.Auteur}"
+            TextColor="White"
+            Margin="0,0,0,5"/>
+        <Label
+            Text="{Binding Livre.Description}"
+            TextColor="White"
+            Margin="0,0,0,10"/>
+        <Label
+            Text="{Binding Livre.DatePublication}"
+            TextColor="White"/>
+        <HorizontalStackLayout
+            Margin="0,10,0,10">
+            <Entry
+                Text="{Binding ATROUVER}"
+                Placeholder="Votre note sur 5"/>
+            <Button
+                Text="Envoyer"
+                TextColor="White"
+                BackgroundColor="#ff06402B"
+                Margin="10,0,0,0"
+                Command="{Binding AjouterNoteCommand}"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Label
+                Text="{Binding Livre.MoyenneEvaluation, StringFormat='{0} ✦',
+                Mode=TwoWay}"
+                TextColor="White"/>
+            <Label
+                Text="{Binding Livre.NmbEvaluation, StringFormat='- ({0})',
+                Mode=TwoWay}"
+                TextColor="White"
+                Margin="5,0,0,0"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

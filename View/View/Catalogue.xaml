@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="View.Catalogue"
+             Title=""
+             HeightRequest="650"
+             WidthRequest="500">
+    <VerticalStackLayout
+        WidthRequest="450"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        TranslationY="-25">
+        <Label
+            Text="Catalogue de livres"
+            FontSize="25"
+            FontAttributes="Bold"
+            Margin="0, 0, 0, 10"/>
+
+
+
+        <CollectionView
+            x:Name="ListeDeLivres"
+            ItemsSource="{Binding Livres}"
+            HeightRequest="500"
+            SelectionMode="Single">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout
+                    Orientation="Vertical"
+                    ItemSpacing="5"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame
+                        BackgroundColor="#06402b"
+                        HeightRequest="100"
+                        Padding="10" >
+
+                        <Grid
+                            ColumnDefinitions="Auto, Auto, * , Auto"
+                            VerticalOptions="Center">
+                            <VerticalStackLayout
+                                    Grid.Column="0">
+                                <Label Text="{Binding Titre}"
+                                       TextColor="White"
+                                       FontSize="15"/>
+                                <Label Text="{Binding Auteur}"
+                                       TextColor="#AAA"
+                                       FontSize="12"/>
+                            </VerticalStackLayout>
+
+                            <BoxView Grid.Column="1"
+                                     BackgroundColor="Transparent"/>
+
+                            <VerticalStackLayout
+                                    Grid.Column="2"
+                                    HorizontalOptions="Center">
+                                <Label Text="{Binding MoyenneEvaluation}"
+                                       TextColor="White" FontSize="15"
+                                       HorizontalOptions="End"/>
+                                <Label Text="{Binding DatePublication}"
+                                       TextColor="#AAA" FontSize="13"
+                                       HorizontalOptions="End"/>
+                            </VerticalStackLayout>
+
+                            <BoxView Grid.Column="3"
+                                     BackgroundColor="Transparent"/>
+
+                            <VerticalStackLayout
+                                    Grid.Column="4"
+                                    HorizontalOptions="End">
+                                <Button Text="Voir +"
+                                        BackgroundColor="#58756B"
+                                        TextColor="White"
+                                        FontSize="15"
+                                        FontAttributes="Bold"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.GoToLivre}"
+                                        CommandParameter="{Binding}"/>
+                            </VerticalStackLayout>
+
+                        </Grid>
+                    </Frame>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+
+</ContentPage>
