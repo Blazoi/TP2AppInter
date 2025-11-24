@@ -14,85 +14,97 @@ namespace ViewModel
     public class CatalogueViewModel
     {
 
-        private readonly string chemin = "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\bibliotheque.xml";
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
+        private readonly string cheminFavoris = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Favoris.xml");
         public List<Livre> Livres { get; } = new();
         public ICommand GoToLivre { get; }
+        public ICommand GoToFavoris { get; }
+        public ICommand GoToAjout { get; }
+        public ICommand GoToSuppression { get; }
+        public ICommand GoToComptes { get; }
 
         public CatalogueViewModel()
         {
             ChargerLivres();
+            ChargerFavoris();
             GoToLivre = new Command<Livre>(ChoisirLivreCommand);
+            GoToFavoris = new Command(PageFavorisCommand);
+            GoToAjout = new Command(PageAjouterCommand);
+            GoToSuppression = new Command(PageSupprimerCommand);
+            GoToComptes = new Command(PageGestionCommand);
         }
 
+        public void ChargerFavoris()
+        {
+            var docBiblio = XDocument.Load(cheminBiblio);
+            var docFavoris = new XDocument(new XElement("Livres"));
+
+            var livres = docBiblio.Descendants("Livre").Where(livre =>(double)livre.Element("MoyenneEvaluation") >= 4);
+
+            foreach (var livre in livres)
+            {
+                docFavoris.Root.Add(new XElement(livre));
+            }
+
+            docFavoris.Save(cheminFavoris);
+        }
         public void ChargerLivres()
         {
-            XmlDocument doc = new();
-            doc.Load(chemin);
-            var Nodes = doc.GetElementsByTagName("Livre");
+            var doc = XDocument.Load(cheminBiblio);
 
-            string? Titre;
-            string? Auteur;
-            string? ISBN;
-            string? MaisonEdition;
-            DateOnly DatePublication;
-            string? Description;
-            float MoyenneEvaluation;
-            int NmbEvaluation;
+            var livres = doc.Descendants("Livre").Select(livre => new Livre(
+                (string)livre.Element("Titre"),
+                (string)livre.Element("Auteur"),
+                (string)livre.Element("ISBN"),
+                (string)livre.Element("MaisonEdition"),
+                DateOnly.Parse( (string)livre.Element("DatePublication") ),
+                (string)livre.Element("Description"),
+                (double)livre.Element("MoyenneEvaluation"),
+                (int)livre.Element("NombreEvaluations")
+                ));
 
-            foreach ( XmlNode livre in Nodes )
+            foreach (Livre livre in livres)
             {
-                Titre = livre["Titre"]?.InnerText;
-                Auteur = livre["Auteur"]?.InnerText;
-                ISBN = livre["ISBN"]?.InnerText;
-                MaisonEdition = livre["MaisonEdition"]?.InnerText;
-                DatePublication = DateOnly.Parse(livre["DatePublication"].InnerText);
-                Description = livre["Description"].InnerText;
-                MoyenneEvaluation = float.Parse(livre["MoyenneEvaluation"].InnerText);
-                NmbEvaluation = int.Parse(livre["NombreEvaluations"].InnerText);
-
-                Livre nouveauLivre = new Livre(Titre, Auteur, ISBN, MaisonEdition, DatePublication, Description, MoyenneEvaluation, NmbEvaluation);
-                Livres.Add(nouveauLivre);
-
+                Livres.Add(livre);
             }
 
         }
 
         public async void ChoisirLivreCommand(Livre livre)
         {
-            XmlDocument doc = new();
-            XmlElement root = doc.CreateElement("Livre");
 
-            XmlElement titre = doc.CreateElement("Titre");
-            titre.InnerText = livre.Titre;
-            XmlElement auteur = doc.CreateElement("Auteur");
-            auteur.InnerText = livre.Auteur;
-            XmlElement isbn = doc.CreateElement("ISBN");
-            isbn.InnerText = livre.ISBN;
-            XmlElement maisonedition = doc.CreateElement("MaisonEdition");
-            maisonedition.InnerText = livre.MaisonEdition;
-            XmlElement datepublication = doc.CreateElement("DatePublication");
-            datepublication.InnerText = livre.DatePublication.ToString();
-            XmlElement description = doc.CreateElement("Description");
-            description.InnerText = livre.Description;
-            XmlElement moyenneevaluation = doc.CreateElement("MoyenneEvaluation");
-            moyenneevaluation.InnerText = livre.MoyenneEvaluation.ToString();
-            XmlElement nmbevaluation = doc.CreateElement("NmbEvaluation");
-            nmbevaluation.InnerText = livre.NmbEvaluation.ToString();
+            XDocument doc = new XDocument(new XElement("Livre"));
 
-            root.AppendChild(titre);
-            root.AppendChild(auteur);
-            root.AppendChild(isbn);
-            root.AppendChild(maisonedition);
-            root.AppendChild(datepublication);
-            root.AppendChild(description);
-            root.AppendChild(moyenneevaluation);
-            root.AppendChild(nmbevaluation);
-            
-            doc.AppendChild(root);
+            doc.Root.Add(new XElement("Titre", livre.Titre));
+            doc.Root.Add(new XElement("Auteur", livre.Auteur));
+            doc.Root.Add(new XElement("ISBN", livre.ISBN));
+            doc.Root.Add(new XElement("MaisonEdition", livre.MaisonEdition));
+            doc.Root.Add(new XElement("DatePublication", livre.DatePublication));
+            doc.Root.Add(new XElement("Description", livre.Description));
+            doc.Root.Add(new XElement("MoyenneEvaluation", livre.MoyenneEvaluation));
+            doc.Root.Add(new XElement("NombreEvaluations", livre.NmbEvaluation));
 
-            doc.Save("C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\LivreChoisi.xml");
+            doc.Save(cheminLivreChoisi);
 
             await Shell.Current.GoToAsync("Livre");
+        }
+
+        public async void PageFavorisCommand()
+        {
+            await Shell.Current.GoToAsync("FavorisPage");
+        }
+        public async void PageAjouterCommand()
+        {
+            await Shell.Current.GoToAsync("AjouterLivrePage");
+        }
+        public async void PageSupprimerCommand()
+        {
+            await Shell.Current.GoToAsync("SupprimerLivrePage");
+        }
+        public async void PageGestionCommand()
+        {
+            await Shell.Current.GoToAsync("GestionComptesPage");
         }
     }
 }

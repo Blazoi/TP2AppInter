@@ -1,20 +1,41 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Xml;
-using Model;
+using System.Xml.Linq;
 
 namespace ViewModel
 {
 
-    public class LivreViewModel
+    public class LivreViewModel : INotifyPropertyChanged
     {
+        private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
+        public event PropertyChangedEventHandler PropertyChanged;
         public ICommand AjouterNoteCommand { get; }
-        public Livre Livre { get; set; } = new(null,null,null,null,null,null,null,null);
+        private int note;
+        public int NoteaAjouter
+        {
+            get => note;
+            set
+            {
+                if (value < 6 && value > -1)
+                {
+                    note = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+        public bool EvalExiste = false;
+        public int AncienneNote;
+
+        public Livre Livre { get; set; } = new(null,null,null,null, new DateOnly(1000,10,10),null,0,0);
         public LivreViewModel()
         {
             ChargerLivre();
@@ -23,23 +44,44 @@ namespace ViewModel
 
         public void ChargerLivre()
         {
-            XmlDocument doc = new();
-            doc.Load("C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\LivreChoisi.xml");
-            XmlElement livre = doc.DocumentElement;
+            XElement livre = XDocument.Load(cheminLivreChoisi).Root;
 
-            Livre.Titre = livre["Titre"].InnerText;
-            Livre.Auteur = livre["Auteur"].InnerText;
-            Livre.ISBN = livre["ISBN"].InnerText;
-            Livre.MaisonEdition = livre["MaisonEdition"].InnerText;
-            Livre.DatePublication = DateOnly.Parse(livre["DatePublication"].InnerText);
-            Livre.Description = livre["Description"].InnerText;
-            Livre.MoyenneEvaluation = float.Parse(livre["MoyenneEvaluation"].InnerText);
-            Livre.NmbEvaluation = int.Parse(livre["NmbEvaluation"].InnerText);
+            Livre.Titre = (string) livre.Element("Titre");
+            Livre.Auteur = (string) livre.Element("Auteur");
+            Livre.ISBN = (string) livre.Element("ISBN");
+            Livre.MaisonEdition = (string) livre.Element("MaisonEdition");
+            Livre.DatePublication = DateOnly.Parse( (string) livre.Element("DatePublication"));
+            Livre.Description = (string) livre.Element("Description");
+            Livre.MoyenneEvaluation = (double) livre.Element("MoyenneEvaluation");
+            Livre.NmbEvaluation = (int) livre.Element("NombreEvaluations");
         }
 
         public void AjouterNote()
         {
+            double ancienneMoyenne = Livre.MoyenneEvaluation;
+            int nombre = Livre.NmbEvaluation;
 
+            if (!EvalExiste)
+            {
+                double nouvelleMoyenne = Math.Round(((ancienneMoyenne * nombre) + note) / (nombre + 1), 1);
+                Livre.MoyenneEvaluation = nouvelleMoyenne;
+                Livre.NmbEvaluation++;
+
+                AncienneNote = note;
+                EvalExiste = true;
+            } else
+            {
+                double nouvelleMoyenne = Math.Round(((ancienneMoyenne * nombre) - AncienneNote + note) / nombre, 1);
+                Livre.MoyenneEvaluation = nouvelleMoyenne;
+
+                AncienneNote = note;
+            }
+                OnPropertyChanged(nameof(Livre));
+        }
+
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 

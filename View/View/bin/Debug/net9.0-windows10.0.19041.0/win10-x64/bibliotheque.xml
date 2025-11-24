@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Bibliotheque>
   <Livres>
     <Livre>
@@ -571,213 +571,262 @@
       <MoyenneEvaluation>4.6</MoyenneEvaluation>
       <NombreEvaluations>15</NombreEvaluations>
     </Livre>
+    <Livre>
+      <Titre>lorem</Titre>
+      <Auteur>ipsum</Auteur>
+      <ISBN>isbn</ISBN>
+      <MaisonEdition>bdeb</MaisonEdition>
+      <DatePublication>poste</DatePublication>
+      <Description>autre</Description>
+      <MoyenneEvaluation>0</MoyenneEvaluation>
+      <NombreEvaluations>0</NombreEvaluations>
+    </Livre>
   </Livres>
   <Comptes>
-  <Compte>
-    <Email>admin@exemple.com</Email>
-    <MotDePasse>3GP</MotDePasse>
-    <Nom>Administrateur</Nom>
-    <Prenom>Principal</Prenom>
-  </Compte>
-  <Compte>
-    <Email>naim.himrane@bdeb.qc.ca</Email>
-    <MotDePasse>3gp</MotDePasse>
-    <Nom>Dupont</Nom>
-    <Prenom>Alice</Prenom>
-  </Compte>
+    <Compte>
+      <Email>admin@exemple.com</Email>
+      <MotDePasse>3GP</MotDePasse>
+      <Nom>Administrateur</Nom>
+      <Prenom>Principal</Prenom>
+    </Compte>
+    <Compte>
+      <Email>naim.himrane@bdeb.qc.ca</Email>
+      <MotDePasse>3gp</MotDePasse>
+      <Nom>Dupont</Nom>
+      <Prenom>Alice</Prenom>
+    </Compte>
     <Compte>
       <Email>alice.dupont@exemple.com</Email>
-      <MotDePasse>VJQl</MotDePasse><Nom>Dupont</Nom>
+      <MotDePasse>VJQl</MotDePasse>
+      <Nom>Dupont</Nom>
       <Prenom>Alice</Prenom>
     </Compte>
     <Compte>
       <Email>bob.martin@exemple.com</Email>
-      <MotDePasse>Ibd</MotDePasse><Nom>Martin</Nom>
+      <MotDePasse>Ibd</MotDePasse>
+      <Nom>Martin</Nom>
       <Prenom>Bob</Prenom>
     </Compte>
     <Compte>
       <Email>claire.lefebvre@exemple.com</Email>
-      <MotDePasse>aBS</MotDePasse><Nom>Lefebvre</Nom>
+      <MotDePasse>aBS</MotDePasse>
+      <Nom>Lefebvre</Nom>
       <Prenom>Claire</Prenom>
     </Compte>
     <Compte>
       <Email>john.doe@exemple.com</Email>
-      <MotDePasse>QGA</MotDePasse><Nom>Doe</Nom>
+      <MotDePasse>QGA</MotDePasse>
+      <Nom>Doe</Nom>
       <Prenom>John</Prenom>
     </Compte>
     <Compte>
       <Email>jane.smith@exemple.com</Email>
-      <MotDePasse>jAy</MotDePasse><Nom>Smith</Nom>
+      <MotDePasse>jAy</MotDePasse>
+      <Nom>Smith</Nom>
       <Prenom>Jane</Prenom>
     </Compte>
     <Compte>
       <Email>alex.brown@exemple.com</Email>
-      <MotDePasse>V7AY</MotDePasse><Nom>Brown</Nom>
+      <MotDePasse>V7AY</MotDePasse>
+      <Nom>Brown</Nom>
       <Prenom>Alex</Prenom>
     </Compte>
     <Compte>
       <Email>emily.wilson@exemple.com</Email>
-      <MotDePasse>d8a</MotDePasse><Nom>Wilson</Nom>
+      <MotDePasse>d8a</MotDePasse>
+      <Nom>Wilson</Nom>
       <Prenom>Emily</Prenom>
     </Compte>
     <Compte>
       <Email>michael.johnson@exemple.com</Email>
-      <MotDePasse>6ph</MotDePasse><Nom>Johnson</Nom>
+      <MotDePasse>6ph</MotDePasse>
+      <Nom>Johnson</Nom>
       <Prenom>Michael</Prenom>
     </Compte>
     <Compte>
       <Email>laura.martin@exemple.com</Email>
-      <MotDePasse>LXJh</MotDePasse><Nom>Martin</Nom>
+      <MotDePasse>LXJh</MotDePasse>
+      <Nom>Martin</Nom>
       <Prenom>Laura</Prenom>
     </Compte>
     <Compte>
       <Email>david.anderson@exemple.com</Email>
-      <MotDePasse>jKe</MotDePasse><Nom>Anderson</Nom>
+      <MotDePasse>jKe</MotDePasse>
+      <Nom>Anderson</Nom>
       <Prenom>David</Prenom>
     </Compte>
     <Compte>
       <Email>sophia.thomas@exemple.com</Email>
-      <MotDePasse>oZ92</MotDePasse><Nom>Thomas</Nom>
+      <MotDePasse>oZ92</MotDePasse>
+      <Nom>Thomas</Nom>
       <Prenom>Sophia</Prenom>
     </Compte>
     <Compte>
       <Email>william.robinson@exemple.com</Email>
-      <MotDePasse>Rkx</MotDePasse><Nom>Robinson</Nom>
+      <MotDePasse>Rkx</MotDePasse>
+      <Nom>Robinson</Nom>
       <Prenom>William</Prenom>
     </Compte>
     <Compte>
       <Email>olivia.hall@exemple.com</Email>
-      <MotDePasse>M9w</MotDePasse><Nom>Hall</Nom>
+      <MotDePasse>M9w</MotDePasse>
+      <Nom>Hall</Nom>
       <Prenom>Olivia</Prenom>
     </Compte>
     <Compte>
       <Email>james.lewis@exemple.com</Email>
-      <MotDePasse>U6O</MotDePasse><Nom>Lewis</Nom>
+      <MotDePasse>U6O</MotDePasse>
+      <Nom>Lewis</Nom>
       <Prenom>James</Prenom>
     </Compte>
     <Compte>
       <Email>ava.jackson@exemple.com</Email>
-      <MotDePasse>uaN</MotDePasse><Nom>Jackson</Nom>
+      <MotDePasse>uaN</MotDePasse>
+      <Nom>Jackson</Nom>
       <Prenom>Ava</Prenom>
     </Compte>
     <Compte>
       <Email>ethan.harris@exemple.com</Email>
-      <MotDePasse>Ak1</MotDePasse><Nom>Harris</Nom>
+      <MotDePasse>Ak1</MotDePasse>
+      <Nom>Harris</Nom>
       <Prenom>Ethan</Prenom>
     </Compte>
     <Compte>
       <Email>tamtam.sami@exemple.com</Email>
-      <MotDePasse>KKa</MotDePasse><Nom>Sami</Nom>
+      <MotDePasse>KKa</MotDePasse>
+      <Nom>Sami</Nom>
       <Prenom>Tamtam</Prenom>
     </Compte>
     <Compte>
       <Email>mia.white@exemple.com</Email>
-      <MotDePasse>2HR</MotDePasse><Nom>White</Nom>
+      <MotDePasse>2HR</MotDePasse>
+      <Nom>White</Nom>
       <Prenom>Mia</Prenom>
     </Compte>
     <Compte>
       <Email>alexander.moore@exemple.com</Email>
-      <MotDePasse>OHB</MotDePasse><Nom>Moore</Nom>
+      <MotDePasse>OHB</MotDePasse>
+      <Nom>Moore</Nom>
       <Prenom>Alexander</Prenom>
     </Compte>
     <Compte>
       <Email>chloe.clark@exemple.com</Email>
-      <MotDePasse>gek</MotDePasse><Nom>Clark</Nom>
+      <MotDePasse>gek</MotDePasse>
+      <Nom>Clark</Nom>
       <Prenom>Chloe</Prenom>
     </Compte>
     <Compte>
       <Email>daniel.green@exemple.com</Email>
-      <MotDePasse>kVFR</MotDePasse><Nom>Green</Nom>
+      <MotDePasse>kVFR</MotDePasse>
+      <Nom>Green</Nom>
       <Prenom>Daniel</Prenom>
     </Compte>
     <Compte>
       <Email>emily.baker@exemple.com</Email>
-      <MotDePasse>Vey</MotDePasse><Nom>Baker</Nom>
+      <MotDePasse>Vey</MotDePasse>
+      <Nom>Baker</Nom>
       <Prenom>Emily</Prenom>
     </Compte>
     <Compte>
       <Email>logan.hall@exemple.com</Email>
-      <MotDePasse>YJjx</MotDePasse><Nom>Hall</Nom>
+      <MotDePasse>YJjx</MotDePasse>
+      <Nom>Hall</Nom>
       <Prenom>Logan</Prenom>
     </Compte>
     <Compte>
       <Email>grace.mitchell@exemple.com</Email>
-      <MotDePasse>PFPJ</MotDePasse><Nom>Mitchell</Nom>
+      <MotDePasse>PFPJ</MotDePasse>
+      <Nom>Mitchell</Nom>
       <Prenom>Grace</Prenom>
     </Compte>
     <Compte>
       <Email>jacob.carter@exemple.com</Email>
-      <MotDePasse>SrB</MotDePasse><Nom>Carter</Nom>
+      <MotDePasse>SrB</MotDePasse>
+      <Nom>Carter</Nom>
       <Prenom>Jacob</Prenom>
     </Compte>
     <Compte>
       <Email>abigail.ward@exemple.com</Email>
-      <MotDePasse>3vju</MotDePasse><Nom>Ward</Nom>
+      <MotDePasse>3vju</MotDePasse>
+      <Nom>Ward</Nom>
       <Prenom>Abigail</Prenom>
     </Compte>
     <Compte>
       <Email>noah.turner@exemple.com</Email>
-      <MotDePasse>86d</MotDePasse><Nom>Turner</Nom>
+      <MotDePasse>86d</MotDePasse>
+      <Nom>Turner</Nom>
       <Prenom>Noah</Prenom>
     </Compte>
     <Compte>
       <Email>sophia.hughes@exemple.com</Email>
-      <MotDePasse>DE9</MotDePasse><Nom>Hughes</Nom>
+      <MotDePasse>DE9</MotDePasse>
+      <Nom>Hughes</Nom>
       <Prenom>Sophia</Prenom>
     </Compte>
     <Compte>
       <Email>william.russell@exemple.com</Email>
-      <MotDePasse>33d9</MotDePasse><Nom>Russell</Nom>
+      <MotDePasse>33d9</MotDePasse>
+      <Nom>Russell</Nom>
       <Prenom>William</Prenom>
     </Compte>
     <Compte>
       <Email>david.tremblay@exemple.com</Email>
-      <MotDePasse>aDVc</MotDePasse><Nom>Tremblay</Nom>
+      <MotDePasse>aDVc</MotDePasse>
+      <Nom>Tremblay</Nom>
       <Prenom>David</Prenom>
     </Compte>
     <Compte>
       <Email>emilie.gagnon@exemple.com</Email>
-      <MotDePasse>JYch</MotDePasse><Nom>Gagnon</Nom>
+      <MotDePasse>JYch</MotDePasse>
+      <Nom>Gagnon</Nom>
       <Prenom>Émilie</Prenom>
     </Compte>
     <Compte>
       <Email>francois.lavoie@exemple.com</Email>
-      <MotDePasse>N9n</MotDePasse><Nom>Lavoie</Nom>
+      <MotDePasse>N9n</MotDePasse>
+      <Nom>Lavoie</Nom>
       <Prenom>François</Prenom>
     </Compte>
     <Compte>
       <Email>genevieve.roy@exemple.com</Email>
-      <MotDePasse>e2tl</MotDePasse><Nom>Roy</Nom>
+      <MotDePasse>e2tl</MotDePasse>
+      <Nom>Roy</Nom>
       <Prenom>Geneviève</Prenom>
     </Compte>
     <Compte>
       <Email>hugo.bergeron@exemple.com</Email>
-      <MotDePasse>AqX</MotDePasse><Nom>Bergeron</Nom>
+      <MotDePasse>AqX</MotDePasse>
+      <Nom>Bergeron</Nom>
       <Prenom>Hugo</Prenom>
     </Compte>
     <Compte>
       <Email>isabelle.leclerc@exemple.com</Email>
-      <MotDePasse>FVmS</MotDePasse><Nom>Leclerc</Nom>
+      <MotDePasse>FVmS</MotDePasse>
+      <Nom>Leclerc</Nom>
       <Prenom>Isabelle</Prenom>
     </Compte>
     <Compte>
       <Email>jean.martel@exemple.com</Email>
-      <MotDePasse>P2W</MotDePasse><Nom>Martel</Nom>
+      <MotDePasse>P2W</MotDePasse>
+      <Nom>Martel</Nom>
       <Prenom>Jean</Prenom>
     </Compte>
     <Compte>
       <Email>karine.dufour@exemple.com</Email>
-      <MotDePasse>TGun</MotDePasse><Nom>Dufour</Nom>
+      <MotDePasse>TGun</MotDePasse>
+      <Nom>Dufour</Nom>
       <Prenom>Karine</Prenom>
     </Compte>
     <Compte>
       <Email>luc.beauchemin@exemple.com</Email>
-      <MotDePasse>P0E</MotDePasse><Nom>Beauchemin</Nom>
+      <MotDePasse>P0E</MotDePasse>
+      <Nom>Beauchemin</Nom>
       <Prenom>Luc</Prenom>
     </Compte>
     <Compte>
       <Email>marie.levesque@exemple.com</Email>
-      <MotDePasse>27c6</MotDePasse><Nom>Lévesque</Nom>
+      <MotDePasse>27c6</MotDePasse>
+      <Nom>Lévesque</Nom>
       <Prenom>Marie</Prenom>
     </Compte>
   </Comptes>

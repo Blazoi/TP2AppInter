@@ -95,3 +95,6 @@ C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-android\Services.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-android\Services.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-android\ViewModel.sourcelink.json
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-android\Favoris.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-android\LivreChoisi.xml

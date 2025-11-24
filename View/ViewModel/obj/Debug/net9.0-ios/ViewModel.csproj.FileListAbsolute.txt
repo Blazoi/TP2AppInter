@@ -25,3 +25,6 @@ C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-ios\ref\ViewModel.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-ios\Services.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-ios\Services.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-ios\ViewModel.sourcelink.json
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-ios\Favoris.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-ios\LivreChoisi.xml

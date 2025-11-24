@@ -9,3 +9,4 @@ C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\Model\obj\Debug\net9.0\M
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\Model\obj\Debug\net9.0\refint\Model.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\Model\obj\Debug\net9.0\Model.pdb
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\Model\obj\Debug\net9.0\ref\Model.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\Model\obj\Debug\net9.0\Model.sourcelink.json

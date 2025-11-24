@@ -6,12 +6,12 @@
         public string Auteur { get; set; }
         public string ISBN { get; set; }
         public string MaisonEdition { get; set; }
-        public DateOnly? DatePublication { get; set; }
+        public DateOnly DatePublication { get; set; }
         public string Description { get; set; }
-        public float? MoyenneEvaluation { get; set; }
-        public int? NmbEvaluation { get; set; }
+        public double MoyenneEvaluation { get; set; }
+        public int NmbEvaluation { get; set; }
 
-        public Livre(string titre, string auteur, string iSBN, string maisonEdition, DateOnly? datePublication, string description, float? moyenneEvaluation, int? nmbEvaluation)
+        public Livre(string titre, string auteur, string iSBN, string maisonEdition, DateOnly datePublication, string description, double moyenneEvaluation, int nmbEvaluation)
         {
             Titre = titre;
             Auteur = auteur;

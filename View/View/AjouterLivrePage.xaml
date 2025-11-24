@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="View.AjouterLivrePage"
+             Title=""
+             HeightRequest=" 725"
+             WidthRequest="500">
+    <VerticalStackLayout>
+        <Label Text="Ajouter un Livre"
+               FontSize="30"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center"
+               Margin="0,10,0,0"/>
+
+        <Entry Placeholder="Titre"
+               PlaceholderColor="#BBB"
+               Text="{Binding Titre, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,20,0,0"/>
+        <Entry Placeholder="Auteur"
+               PlaceholderColor="#BBB"
+               Text="{Binding Auteur, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,10,0,0"/>
+        <Entry Placeholder="ISBN"
+               PlaceholderColor="#BBB"
+               Text="{Binding ISBN, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,10,0,0"/>
+        <Entry Placeholder="Maison D'édition"
+               PlaceholderColor="#BBB"
+               Text="{Binding MaisonEdition, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,10,0,0"/>
+        <Entry Placeholder="Date de Publication"
+               PlaceholderColor="#BBB"
+               Text="{Binding DatePublication, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,10,0,0"/>
+        <Entry Placeholder="Description"
+               PlaceholderColor="#BBB"
+               Text="{Binding Description, Mode=OneWayToSource}"
+               WidthRequest="200"
+               Margin="0,10,0,0"/>
+
+        <Button Text="Ajouter"
+                TextColor="#06402b"
+                FontAttributes="Bold"
+                FontSize="17"
+                WidthRequest="200"
+                BackgroundColor="White"
+                Margin="0,20,0,0"
+                Command="{Binding AjouterLivre}"/>
+        
+        <Button Text="Retour"
+                TextColor="White"
+                WidthRequest="200"
+                BackgroundColor="#06402b"
+                Margin="0,10,0,0"
+                Command="{Binding GoToCatalogue}"/>
+        
+
+    </VerticalStackLayout>
+</ContentPage>

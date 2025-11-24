@@ -37,6 +37,7 @@
                 TextColor="White"
                 FontAttributes="Bold"
                 Command="{Binding ConnectButton}"/>
+        
 
 
     </VerticalStackLayout>

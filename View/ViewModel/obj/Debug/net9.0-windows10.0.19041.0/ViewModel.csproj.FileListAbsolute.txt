@@ -17,3 +17,7 @@ C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ref\ViewModel.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Services.dll
 C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Services.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.sourcelink.json
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\bibliotheque.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Favoris.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInteractives\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\LivreChoisi.xml

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Runtime.CompilerServices;
+using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 
@@ -6,7 +7,7 @@ namespace Services
 {
     public class AuthentificationService
     {
-        private readonly string chemin = "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\bibliotheque.xml";
+        private readonly string chemin = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
         public bool Authentifier(string Email, string MotDePasse)
         {
             var doc = XDocument.Load(chemin);
@@ -15,7 +16,10 @@ namespace Services
             
             if (Compte == null) return false;
 
-            if (MotDePasse == (string)Compte.Element("MotDePasse")) return true;
+            if (MotDePasse == (string)Compte.Element("MotDePasse") && Email == "admin@exemple.com")
+            {
+                return true;
+            }
 
             return false;
         }
