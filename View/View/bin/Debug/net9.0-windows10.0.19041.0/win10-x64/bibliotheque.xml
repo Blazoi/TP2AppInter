@@ -452,6 +452,16 @@
       <NombreEvaluations>5</NombreEvaluations>
     </Livre>
     <Livre>
+      <Titre>Les Mille et Une Nuits</Titre>
+      <Auteur>Anonyme</Auteur>
+      <ISBN>978-2-253-05207-5</ISBN>
+      <MaisonEdition>Le Livre de Poche</MaisonEdition>
+      <DatePublication>0800-01-01</DatePublication>
+      <Description>Recueil de contes orientaux racontant des histoires merveilleuses de djinns, de princes et de princesses, traduites et adaptées à travers les siècles.</Description>
+      <MoyenneEvaluation>4.6</MoyenneEvaluation>
+      <NombreEvaluations>11</NombreEvaluations>
+    </Livre>
+    <Livre>
       <Titre>Les Trois Mousquetaires</Titre>
       <Auteur>Alexandre Dumas</Auteur>
       <ISBN>978-2-253-10979-0</ISBN>
@@ -571,16 +581,6 @@
       <MoyenneEvaluation>4.6</MoyenneEvaluation>
       <NombreEvaluations>15</NombreEvaluations>
     </Livre>
-    <Livre>
-      <Titre>lorem</Titre>
-      <Auteur>ipsum</Auteur>
-      <ISBN>isbn</ISBN>
-      <MaisonEdition>bdeb</MaisonEdition>
-      <DatePublication>poste</DatePublication>
-      <Description>autre</Description>
-      <MoyenneEvaluation>0</MoyenneEvaluation>
-      <NombreEvaluations>0</NombreEvaluations>
-    </Livre>
   </Livres>
   <Comptes>
     <Compte>
@@ -592,8 +592,8 @@
     <Compte>
       <Email>naim.himrane@bdeb.qc.ca</Email>
       <MotDePasse>3gp</MotDePasse>
-      <Nom>Dupont</Nom>
-      <Prenom>Alice</Prenom>
+      <Nom>Naïm</Nom>
+      <Prenom>Himrane</Prenom>
     </Compte>
     <Compte>
       <Email>alice.dupont@exemple.com</Email>

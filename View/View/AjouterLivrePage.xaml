@@ -3,9 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="View.AjouterLivrePage"
              Title=""
-             HeightRequest=" 725"
+             HeightRequest=" 550"
              WidthRequest="500">
-    <VerticalStackLayout>
+    <VerticalStackLayout
+        TranslationY="10">
         <Label Text="Ajouter un Livre"
                FontSize="30"
                FontAttributes="Bold"

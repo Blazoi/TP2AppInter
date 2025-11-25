@@ -12,7 +12,9 @@ namespace ViewModel
 {
     public class AjouterLivreViewModel
     {
-        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(
+            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
+            "..", "Model", "bibliotheque.xml");
         public ICommand GoToCatalogue { get; }
         public ICommand AjouterLivre { get; }
 
@@ -20,7 +22,7 @@ namespace ViewModel
         public string Auteur { get; set; }
         public string ISBN { get; set; }
         public string MaisonEdition { get; set; }
-        public string DatePublication { get; set; }
+        public string DatePublication { get; set; } = "1001 - 01 - 01";
         public string Description { get; set; }
 
         public AjouterLivreViewModel()
@@ -36,7 +38,7 @@ namespace ViewModel
         {
             XDocument docBiblio = XDocument.Load(cheminBiblio);
 
-            docBiblio.Root.Element("Livres").Add(new XElement("Livre",
+            var nouveauLivre = new XElement("Livre",
                 new XElement("Titre", Titre),
                 new XElement("Auteur", Auteur),
                 new XElement("ISBN", ISBN),
@@ -44,9 +46,11 @@ namespace ViewModel
                 new XElement("DatePublication", DatePublication),
                 new XElement("Description", Description),
                 new XElement("MoyenneEvaluation", 0),
-                new XElement("NombreEvaluations", 0)));
+                new XElement("NombreEvaluations", 0));
 
-            Debug.WriteLine(Titre);
+            docBiblio.Root.Element("Livres").Add(nouveauLivre);
+
+            Debug.WriteLine(nouveauLivre);
 
             docBiblio.Save(cheminBiblio);
         }

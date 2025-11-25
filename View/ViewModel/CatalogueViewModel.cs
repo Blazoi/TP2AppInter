@@ -1,4 +1,5 @@
 ﻿using Model;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,10 +15,17 @@ namespace ViewModel
     public class CatalogueViewModel
     {
 
-        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(
+            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
+            "..", "Model","bibliotheque.xml");
+        private readonly string cheminUsers = Path.Combine(
+            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
+            "..", "Model", "IsAdmin.xml");
+
         private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
         private readonly string cheminFavoris = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Favoris.xml");
         public List<Livre> Livres { get; } = new();
+        public bool IsAdmin { get; set; }
         public ICommand GoToLivre { get; }
         public ICommand GoToFavoris { get; }
         public ICommand GoToAjout { get; }
@@ -88,6 +96,13 @@ namespace ViewModel
             doc.Save(cheminLivreChoisi);
 
             await Shell.Current.GoToAsync("Livre");
+        }
+
+        public void CheckIfAdmin()
+        {
+            string email = (string) XDocument.Load(cheminUsers).Root ?? "";
+
+            if (email == "admin@exemple.com") IsAdmin = true;
         }
 
         public async void PageFavorisCommand()

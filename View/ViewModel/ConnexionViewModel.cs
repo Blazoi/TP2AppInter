@@ -26,7 +26,7 @@ namespace ViewModel
                 await Shell.Current.GoToAsync("Catalogue");
             } else
             {
-                await Shell.Current.DisplayAlert("Erreur", "Mauvaises informaitons de connexion", "ok");
+                await Shell.Current.DisplayAlert("Erreur", "Mauvaises informations de connexion", "ok");
             }
         }
     }

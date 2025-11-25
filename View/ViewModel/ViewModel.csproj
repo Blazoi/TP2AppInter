@@ -23,14 +23,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Include="..\Model\bibliotheque.xml" Link="bibliotheque.xml">
+	  <Content Include="..\Model\bibliotheque.xml" Link="bibliotheque.xml" />
+	  <Content Include="..\Model\Favoris.xml" Link="Favoris.xml">
 	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </Content>
-	  <Content Include="..\Model\Favoris.xml" Link="Favoris.xml">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="LivreChoisi.xml">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <Content Include="..\Model\LivreChoisi.xml" Link="LivreChoisi.xml">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
 	  </Content>
 	</ItemGroup>
 
