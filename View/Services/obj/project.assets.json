@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\jackj\\OneDrive - Collège de Bois-de-Boulogne\\Bureau\\TP2AppInter\\View\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\jackj\\OneDrive - Collège de Bois-de-Boulogne\\Bureau\\TP2AppInter\\View\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\jackj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Services\\obj\\",
+      "outputPath": "C:\\Users\\jackj\\OneDrive - Collège de Bois-de-Boulogne\\Bureau\\TP2AppInter\\View\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

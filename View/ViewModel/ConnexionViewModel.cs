@@ -20,8 +20,8 @@ namespace ViewModel
         {
             AuthentificationService auth = new();
 
-            //if (auth.Authentifier(utilisateur.Email, utilisateur.MotDePasse))
-            if (true)
+            if (auth.Authentifier(utilisateur.Email, utilisateur.MotDePasse))
+            //if (true)
             {
                 await Shell.Current.GoToAsync("Catalogue");
             } else

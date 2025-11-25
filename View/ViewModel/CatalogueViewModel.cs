@@ -18,12 +18,16 @@ namespace ViewModel
         private readonly string cheminBiblio = Path.Combine(
             Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
             "..", "Model","bibliotheque.xml");
-        private readonly string cheminUsers = Path.Combine(
+        private readonly string cheminUser = Path.Combine(
             Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
             "..", "Model", "IsAdmin.xml");
+        private readonly string cheminLivreChoisi = Path.Combine(
+            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
+            "..", "Model", "LivreChoisi.xml");
+        private readonly string cheminFavoris = Path.Combine(
+            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
+            "..", "Model", "Favoris.xml");
 
-        private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
-        private readonly string cheminFavoris = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Favoris.xml");
         public List<Livre> Livres { get; } = new();
         public bool IsAdmin { get; set; }
         public ICommand GoToLivre { get; }
@@ -34,6 +38,7 @@ namespace ViewModel
 
         public CatalogueViewModel()
         {
+            CheckIfAdmin();
             ChargerLivres();
             ChargerFavoris();
             GoToLivre = new Command<Livre>(ChoisirLivreCommand);
@@ -100,7 +105,8 @@ namespace ViewModel
 
         public void CheckIfAdmin()
         {
-            string email = (string) XDocument.Load(cheminUsers).Root ?? "";
+            var doc = XDocument.Load(cheminUser);
+            string email = (string) doc.Root;
 
             if (email == "admin@exemple.com") IsAdmin = true;
         }

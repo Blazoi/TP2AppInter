@@ -129,7 +129,8 @@
                 FontSize="15"
                 FontAttributes="Bold"
                 TranslationY="10"
-                Command="{Binding GoToComptes}"/>
+                Command="{Binding GoToComptes}"
+                IsVisible="{Binding IsAdmin}"/>
 
         </HorizontalStackLayout>
 
