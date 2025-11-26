@@ -35,6 +35,7 @@ namespace ViewModel
         public ICommand GoToAjout { get; }
         public ICommand GoToSuppression { get; }
         public ICommand GoToComptes { get; }
+        public ICommand GoToConnexion { get; }
 
         public CatalogueViewModel()
         {
@@ -46,6 +47,7 @@ namespace ViewModel
             GoToAjout = new Command(PageAjouterCommand);
             GoToSuppression = new Command(PageSupprimerCommand);
             GoToComptes = new Command(PageGestionCommand);
+            GoToConnexion = new Command(PageConnexionCommand);
         }
 
         public void ChargerFavoris()
@@ -126,6 +128,10 @@ namespace ViewModel
         public async void PageGestionCommand()
         {
             await Shell.Current.GoToAsync("GestionComptesPage");
+        }
+        public async void PageConnexionCommand()
+        {
+            await Shell.Current.GoToAsync("ConnexionPage");
         }
     }
 }

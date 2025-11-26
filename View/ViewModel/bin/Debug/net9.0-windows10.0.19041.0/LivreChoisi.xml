@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Livre>
   <Titre>Les Hauts de Hurlevent</Titre>
   <Auteur>Emily Brontë</Auteur>
@@ -6,5 +7,5 @@
   <DatePublication>1847-01-01</DatePublication>
   <Description>Roman romantique explorant les passions destructrices et les luttes de pouvoir au sein d'une famille dans la lande sauvage du Yorkshire.</Description>
   <MoyenneEvaluation>4.6</MoyenneEvaluation>
-  <NmbEvaluation>2</NmbEvaluation>
+  <NombreEvaluations>2</NombreEvaluations>
 </Livre>

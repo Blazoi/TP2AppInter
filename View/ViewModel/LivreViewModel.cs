@@ -25,10 +25,13 @@ namespace ViewModel
             get => note;
             set
             {
-                if (value < 6 && value > -1)
+                if (value <= 5 && value >= 0)
                 {
                     note = value;
                     OnPropertyChanged();
+                } else
+                {
+                    note = -1;
                 }
             }
         }
@@ -56,10 +59,16 @@ namespace ViewModel
             Livre.NmbEvaluation = (int) livre.Element("NombreEvaluations");
         }
 
-        public void AjouterNote()
+        public async void AjouterNote()
         {
             double ancienneMoyenne = Livre.MoyenneEvaluation;
             int nombre = Livre.NmbEvaluation;
+
+            if (note == -1)
+            {
+                await Shell.Current.DisplayAlert("Erreur", "Entrez une valeur de 1 à 5.", "ok");
+                return;
+            }
 
             if (!EvalExiste)
             {
