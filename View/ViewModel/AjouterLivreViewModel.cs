@@ -13,17 +13,17 @@ namespace ViewModel
     public class AjouterLivreViewModel
     {
         private readonly string cheminBiblio = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "bibliotheque.xml");
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "bibliotheque.xml");
         public ICommand GoToCatalogue { get; }
         public ICommand AjouterLivre { get; }
 
-        public string Titre { get; set; }
-        public string Auteur { get; set; }
-        public string ISBN { get; set; }
-        public string MaisonEdition { get; set; }
+        public string Titre { get; set; } = "";
+        public string Auteur { get; set; } = "";
+        public string ISBN { get; set; } = "";
+        public string MaisonEdition { get; set; } = "";
         public string DatePublication { get; set; } = "1001 - 01 - 01";
-        public string Description { get; set; }
+        public string Description { get; set; } = "";
 
         public AjouterLivreViewModel()
         {

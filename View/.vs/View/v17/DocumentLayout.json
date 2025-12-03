@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\view\\livre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|solutionrelative:view\\livre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\viewmodel\\catalogueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\catalogueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19E25CE5-FC20-41AF-BD02-999BAE39EFAF}|Tests\\Tests.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19E25CE5-FC20-41AF-BD02-999BAE39EFAF}|Tests\\Tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\view\\livre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|solutionrelative:view\\livre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\view\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|solutionrelative:view\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\viewmodel\\livreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\livreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\viewmodel\\connexionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\connexionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\viewmodel\\catalogueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\catalogueviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19E25CE5-FC20-41AF-BD02-999BAE39EFAF}|Tests\\Tests.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19E25CE5-FC20-41AF-BD02-999BAE39EFAF}|Tests\\Tests.csproj|solutionrelative:tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE914D8C-9283-43D1-B659-C556C81EE99B}|Model\\Model.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\model\\bibliotheque.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CE914D8C-9283-43D1-B659-C556C81EE99B}|Model\\Model.csproj|solutionrelative:model\\bibliotheque.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE914D8C-9283-43D1-B659-C556C81EE99B}|Model\\Model.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\model\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE914D8C-9283-43D1-B659-C556C81EE99B}|Model\\Model.csproj|solutionrelative:model\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\viewmodel\\livreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6290A85D-2941-447B-950A-4EA6BA0E1AD2}|ViewModel\\ViewModel.csproj|solutionrelative:viewmodel\\livreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7AA9297-E2B5-4CF7-B5F3-265295F9357A}|View\\View.csproj|c:\\users\\jackj\\onedrive\\desktop\\tp2appinteractives\\view\\view\\catalogue.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -58,16 +66,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "CatalogueViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\CatalogueViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CatalogueViewModel.cs",
+              "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\CatalogueViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CatalogueViewModel.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T18:58:45.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Tests\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Tests\\UnitTest1.cs",
               "RelativeToolTip": "Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T00:42:23.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T00:42:23.36Z"
             },
             {
               "$type": "Document",
@@ -79,38 +99,35 @@
               "RelativeToolTip": "View\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T00:39:17.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T00:39:17.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ConnexionViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\ConnexionViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\ConnexionViewModel.cs",
               "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\ConnexionViewModel.cs",
               "RelativeToolTip": "ViewModel\\ConnexionViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:25:23.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:25:23.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CatalogueViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\CatalogueViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\CatalogueViewModel.cs",
-              "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\CatalogueViewModel.cs",
-              "RelativeToolTip": "ViewModel\\CatalogueViewModel.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:19:49.186Z",
-              "EditorCaption": ""
+              "Title": "bibliotheque.xml",
+              "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\bibliotheque.xml",
+              "RelativeDocumentMoniker": "Model\\bibliotheque.xml",
+              "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\bibliotheque.xml",
+              "RelativeToolTip": "Model\\bibliotheque.xml",
+              "ViewState": "AgIAAC8CAAAAAAAAAAAAAEICAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-11-27T18:22:19.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "LivreViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\ViewModel\\LivreViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\LivreViewModel.cs",
@@ -118,12 +135,11 @@
               "RelativeToolTip": "ViewModel\\LivreViewModel.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAcwEQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T21:55:18.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T21:55:18.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AuthentificationService.cs",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Services\\AuthentificationService.cs",
               "RelativeDocumentMoniker": "Services\\AuthentificationService.cs",
@@ -131,12 +147,11 @@
               "RelativeToolTip": "Services\\AuthentificationService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:25:44.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:25:44.112Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Utilisateur.cs",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\Utilisateur.cs",
               "RelativeDocumentMoniker": "Model\\Utilisateur.cs",
@@ -144,31 +159,42 @@
               "RelativeToolTip": "Model\\Utilisateur.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:09:32.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:09:32.26Z"
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\Livre.cs",
+              "RelativeDocumentMoniker": "Model\\Livre.cs",
+              "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\Livre.cs",
+              "RelativeToolTip": "Model\\Livre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:18:27.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Livre.xaml",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\View\\Livre.xaml",
               "RelativeDocumentMoniker": "View\\Livre.xaml",
               "ToolTip": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\View\\Livre.xaml",
               "RelativeToolTip": "View\\Livre.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-25T21:58:18.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IsAdmin.xml",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\Model\\IsAdmin.xml",
               "RelativeDocumentMoniker": "Model\\IsAdmin.xml",
@@ -176,12 +202,11 @@
               "RelativeToolTip": "Model\\IsAdmin.xml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-11-24T21:23:03.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:23:03.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Catalogue.xaml",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\View\\Catalogue.xaml",
               "RelativeDocumentMoniker": "View\\Catalogue.xaml",
@@ -189,12 +214,11 @@
               "RelativeToolTip": "View\\Catalogue.xaml",
               "ViewState": "AgIAAFMAAAAAAAAAAAAQwGMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-24T21:19:30.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:19:30.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "FavorisPage.xaml",
               "DocumentMoniker": "C:\\Users\\jackj\\OneDrive\\Desktop\\TP2AppInteractives\\View\\View\\FavorisPage.xaml",
               "RelativeDocumentMoniker": "View\\FavorisPage.xaml",
@@ -202,8 +226,7 @@
               "RelativeToolTip": "View\\FavorisPage.xaml",
               "ViewState": "AgIAADkAAAAAAAAAACBjwEsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-24T21:18:01.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:18:01.049Z"
             }
           ]
         }

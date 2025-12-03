@@ -13,8 +13,8 @@ namespace ViewModel
     public class SupprimerLivreViewModel
     {
         private readonly string cheminBiblio = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "bibliotheque.xml");
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "bibliotheque.xml");
         public string ISBN { get; set; }
         public ICommand SupprimerLivre { get; }
         public ICommand GoToCatalogue { get; }

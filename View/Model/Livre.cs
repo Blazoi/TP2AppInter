@@ -11,7 +11,7 @@
         public double MoyenneEvaluation { get; set; }
         public int NmbEvaluation { get; set; }
 
-        public Livre(string titre, string auteur, string iSBN, string maisonEdition, DateOnly? datePublication, string description, double moyenneEvaluation, int nmbEvaluation)
+        public Livre(string titre, string auteur, string iSBN, string maisonEdition, DateOnly? datePublication, string description, double moyenneEvaluation = 0, int nmbEvaluation = 0)
         {
             Titre = titre;
             Auteur = auteur;

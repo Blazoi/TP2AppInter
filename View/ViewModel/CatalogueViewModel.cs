@@ -16,17 +16,18 @@ namespace ViewModel
     {
 
         private readonly string cheminBiblio = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model","bibliotheque.xml");
-        private readonly string cheminUser = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "IsAdmin.xml");
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "bibliotheque.xml");
         private readonly string cheminLivreChoisi = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "LivreChoisi.xml");
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "LivreChoisi.xml");
         private readonly string cheminFavoris = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "Favoris.xml");
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "Favoris.xml");
+        private readonly string cheminUser = Path.Combine(
+            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
+            "Model", "IsAdmin.xml");
+
 
         public List<Livre> Livres { get; } = new();
         public bool IsAdmin { get; set; }

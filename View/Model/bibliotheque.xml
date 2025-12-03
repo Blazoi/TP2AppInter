@@ -581,6 +581,26 @@
       <MoyenneEvaluation>4.6</MoyenneEvaluation>
       <NombreEvaluations>15</NombreEvaluations>
     </Livre>
+    <Livre>
+      <Titre>titre_test</Titre>
+      <Auteur>auteur_test</Auteur>
+      <ISBN>isbn_test</ISBN>
+      <MaisonEdition>msnedtn_test</MaisonEdition>
+      <DatePublication>1001 - 01 - 01</DatePublication>
+      <Description>desc_test</Description>
+      <MoyenneEvaluation>0</MoyenneEvaluation>
+      <NombreEvaluations>0</NombreEvaluations>
+    </Livre>
+    <Livre>
+      <Titre>titre_test</Titre>
+      <Auteur>auteur_test</Auteur>
+      <ISBN>isbn_test</ISBN>
+      <MaisonEdition>msnedtn_test</MaisonEdition>
+      <DatePublication>1001 - 01 - 01</DatePublication>
+      <Description>desc_test</Description>
+      <MoyenneEvaluation>0</MoyenneEvaluation>
+      <NombreEvaluations>0</NombreEvaluations>
+    </Livre>
   </Livres>
   <Comptes>
     <Compte>
