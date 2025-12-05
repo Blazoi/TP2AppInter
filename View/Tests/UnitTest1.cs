@@ -54,8 +54,15 @@ namespace Tests
         public void LectureXML()
         {
             catalogueVM.ChargerLivres();
-
-            bool retour = livreAttendu == catalogueVM.Livres.Last();
+            Livre livreRecu = catalogueVM.Livres.Last();
+            bool retour =   livreAttendu.Titre              == livreRecu.Titre
+                        &&  livreAttendu.Auteur             == livreRecu.Auteur
+                        &&  livreAttendu.ISBN               == livreRecu.ISBN
+                        &&  livreAttendu.MaisonEdition      == livreRecu.MaisonEdition
+                        &&  livreAttendu.DatePublication    == livreRecu.DatePublication
+                        &&  livreAttendu.Description        == livreRecu.Description
+                        &&  livreAttendu.MoyenneEvaluation  == livreRecu.MoyenneEvaluation
+                        &&  livreAttendu.NmbEvaluation      == livreRecu.NmbEvaluation;
             Assert.That(retour.Equals(true));
         }
 
