@@ -12,7 +12,7 @@ namespace ViewModel
 {
     public class FavorisViewModel
     {
-        private readonly string chemin = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
         public List<Livre> LivresFavoris { get; } = new();
         public ICommand GoToLivre { get; }
         public ICommand GoToCatalogue { get; }
@@ -26,7 +26,7 @@ namespace ViewModel
 
         public void ChargerFavoris()
         {
-            var doc = XDocument.Load(chemin);
+            var doc = XDocument.Load(cheminBiblio);
 
             var livres = doc.Descendants("Livre").Where(livre => (double) livre.Element("MoyenneEvaluation") >= 4).Select(
                 livre => new Livre(

@@ -22,3 +22,15 @@ C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\TP2AppInter\View\M
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\TP2AppInter\View\Model\obj\Debug\net9.0\refint\Model.dll
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\TP2AppInter\View\Model\obj\Debug\net9.0\Model.pdb
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\TP2AppInter\View\Model\obj\Debug\net9.0\ref\Model.dll
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\bin\Debug\net9.0\Model.deps.json
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\bin\Debug\net9.0\Model.dll
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\bin\Debug\net9.0\Model.pdb
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.AssemblyInfoInputs.cache
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.AssemblyInfo.cs
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.csproj.CoreCompileInputs.cache
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.sourcelink.json
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.dll
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\refint\Model.dll
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\Model.pdb
+C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\Model\obj\Debug\net9.0\ref\Model.dll

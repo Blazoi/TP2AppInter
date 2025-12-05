@@ -15,9 +15,8 @@ namespace Tests
         private string stringAttendu { get; set; }
         private Livre livreAttendu { get; set; }
 
-        private readonly string cheminBiblio = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+
 
 
         [SetUp]
@@ -55,8 +54,53 @@ namespace Tests
         {
             catalogueVM.ChargerLivres();
 
-            bool retour = livreAttendu == catalogueVM.Livres.Last();
-            Assert.That(retour.Equals(true));
+            Livre livreRecu = catalogueVM.Livres.Last();
+            bool equivalent = true;
+            for (int i = 0; i < 1; i++)
+            {
+                if (livreAttendu.Titre != livreRecu.Titre)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.Auteur != livreRecu.Auteur)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.ISBN != livreRecu.ISBN)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.MaisonEdition != livreRecu.MaisonEdition)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.DatePublication != livreRecu.DatePublication)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.Description != livreRecu.Description)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.MoyenneEvaluation != livreRecu.MoyenneEvaluation)
+                {
+                    equivalent = false;
+                    break;
+                }
+                if (livreAttendu.NmbEvaluation != livreRecu.NmbEvaluation)
+                {
+                    equivalent = false;
+                    break;
+                }
+            }
+
+            Assert.That(equivalent.Equals(true));
         }
 
         [Test]
