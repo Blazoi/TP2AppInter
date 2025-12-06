@@ -12,9 +12,8 @@ namespace ViewModel
 {
     public class AjouterLivreViewModel
     {
-        private readonly string cheminBiblio = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+
         public ICommand GoToCatalogue { get; }
         public ICommand AjouterLivre { get; }
 

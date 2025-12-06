@@ -17,6 +17,7 @@ namespace ViewModel
     public class LivreViewModel : INotifyPropertyChanged
     {
         private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
+        
         public event PropertyChangedEventHandler PropertyChanged;
         public ICommand AjouterNoteCommand { get; }
         private int note;

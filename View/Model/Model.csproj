@@ -7,6 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bibliotheque.xml" />
+    <None Remove="Favoris.xml" />
+    <None Remove="IsAdmin.xml" />
+    <None Remove="LivreChoisi.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bibliotheque.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Favoris.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IsAdmin.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LivreChoisi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="NewFolder\" />
   </ItemGroup>
 

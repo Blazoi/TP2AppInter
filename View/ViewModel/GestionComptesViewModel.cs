@@ -11,9 +11,8 @@ namespace ViewModel
 {
     public class GestionComptesViewModel
     {
-        private readonly string cheminBiblio = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "bibliotheque.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        
         public ICommand GoToCatalogue { get; }
 
         public List<Utilisateur> ListeDeComptes { get; set; }

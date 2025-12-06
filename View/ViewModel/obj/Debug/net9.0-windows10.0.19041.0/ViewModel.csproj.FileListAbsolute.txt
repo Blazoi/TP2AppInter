@@ -67,3 +67,27 @@ C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\refint\ViewModel.dll
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.pdb
 C:\Users\jackj\OneDrive - Collège de Bois-de-Boulogne\Bureau\Appint\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ref\ViewModel.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\bibliotheque.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Favoris.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\LivreChoisi.xml
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\ViewModel.deps.json
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\ViewModel.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\ViewModel.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Microsoft.Web.WebView2.Core.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Microsoft.Web.WebView2.Core.Projection.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Model.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Services.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Model.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\Services.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.csproj.AssemblyReference.cache
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.AssemblyInfoInputs.cache
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.AssemblyInfo.cs
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.sourcelink.json
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.csproj.Up2Date
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\refint\ViewModel.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ViewModel.pdb
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\obj\Debug\net9.0-windows10.0.19041.0\ref\ViewModel.dll
+C:\Users\jackj\OneDrive\Desktop\TP2AppInter\View\ViewModel\bin\Debug\net9.0-windows10.0.19041.0\IsAdmin.xml

@@ -7,12 +7,10 @@ namespace Services
 {
     public class AuthentificationService
     {
-        private readonly string cheminBiblio = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "bibliotheque.xml");
-        private readonly string cheminUser = Path.Combine(
-            Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory)!.Parent!.Parent!.Parent!.Parent!.FullName,
-            "..", "Model", "IsAdmin.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminUser = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "IsAdmin.xml");
+
+        
         public bool Authentifier(string Email, string MotDePasse)
         {
             var doc = XDocument.Load(cheminBiblio);

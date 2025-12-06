@@ -14,19 +14,10 @@ namespace ViewModel
 {
     public class CatalogueViewModel
     {
-
-        private readonly string cheminBiblio = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "bibliotheque.xml");
-        private readonly string cheminLivreChoisi = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "LivreChoisi.xml");
-        private readonly string cheminFavoris = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "Favoris.xml");
-        private readonly string cheminUser = Path.Combine(
-            AppDomain.CurrentDomain.BaseDirectory, "..", "..", "..", "..",
-            "Model", "IsAdmin.xml");
+        private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
+        private readonly string cheminLivreChoisi = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "LivreChoisi.xml");
+        private readonly string cheminFavoris = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Favoris.xml");
+        private readonly string cheminUser = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "IsAdmin.xml");
 
 
         public List<Livre> Livres { get; } = new();
