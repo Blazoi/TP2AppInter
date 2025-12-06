@@ -1,4 +1,4 @@
-﻿using Model;
+using Model;
 using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using ViewModel;
@@ -16,7 +16,6 @@ namespace Tests
         private Livre livreAttendu { get; set; }
 
         private readonly string cheminBiblio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "bibliotheque.xml");
-
 
 
         [SetUp]
@@ -53,16 +52,18 @@ namespace Tests
         public void LectureXML()
         {
             catalogueVM.ChargerLivres();
+
             Livre livreRecu = catalogueVM.Livres.Last();
-            bool retour =   livreAttendu.Titre              == livreRecu.Titre
-                        &&  livreAttendu.Auteur             == livreRecu.Auteur
-                        &&  livreAttendu.ISBN               == livreRecu.ISBN
-                        &&  livreAttendu.MaisonEdition      == livreRecu.MaisonEdition
-                        &&  livreAttendu.DatePublication    == livreRecu.DatePublication
-                        &&  livreAttendu.Description        == livreRecu.Description
-                        &&  livreAttendu.MoyenneEvaluation  == livreRecu.MoyenneEvaluation
-                        &&  livreAttendu.NmbEvaluation      == livreRecu.NmbEvaluation;
-            Assert.That(retour.Equals(true));
+            bool equivalent =
+                livreAttendu.Titre              == livreRecu.Titre &&
+                livreAttendu.Auteur             == livreRecu.Auteur &&
+                livreAttendu.ISBN               == livreRecu.ISBN &&
+                livreAttendu.MaisonEdition      == livreRecu.MaisonEdition &&
+                livreAttendu.DatePublication    == livreRecu.DatePublication &&
+                livreAttendu.Description        == livreRecu.Description &&
+                livreAttendu.MoyenneEvaluation  == livreRecu.MoyenneEvaluation &&
+                livreAttendu.NmbEvaluation      == livreRecu.NmbEvaluation;
+            Assert.That(equivalent.Equals(true));
         }
 
         [Test]
