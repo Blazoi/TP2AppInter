@@ -65,7 +65,7 @@ namespace ViewModel
             double ancienneMoyenne = Livre.MoyenneEvaluation;
             int nombre = Livre.NmbEvaluation;
 
-            if (note == -1)
+            if (note < 0 || note < 5)
             {
                 await Shell.Current.DisplayAlert("Erreur", "Entrez une valeur de 1 à 5.", "ok");
                 return;
